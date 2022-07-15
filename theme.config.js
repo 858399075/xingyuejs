@@ -63,5 +63,5 @@ export default {
   footer: true,
   footerEditLink: '在 GitHub 上编辑此页面',
   footerText: <> {new Date().getFullYear()} © 星月前端.</>,
-  unstable_faviconGlyph: 'hi',
+  unstable_faviconGlyph: '⭐',
 }
