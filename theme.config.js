@@ -1,7 +1,7 @@
 export default {
   github: 'https://github.com/858399075/xingyuejs',
   docsRepositoryBase: 'https://github.com/858399075/xingyuejs/blob/master',
-  titleSuffix: ' – Nextra',
+  titleSuffix: ' – 星月',
   logo: (
     <>
       <span className="mr-2 font-extrabold hidden md:inline">星月前端博客</span>
@@ -63,5 +63,5 @@ export default {
   footer: true,
   footerEditLink: '在 GitHub 上编辑此页面',
   footerText: <> {new Date().getFullYear()} © 星月前端.</>,
-  unstable_faviconGlyph: '👋',
+  unstable_faviconGlyph: 'hi',
 }

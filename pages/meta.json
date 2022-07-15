@@ -1,7 +1,9 @@
 {
-  "index": "Introduction",
-  "get-started": "Get Started",
-  "features": "Features",
-  "themes": "Themes",
-  "advanced": "Advanced"
+  "index": "首页",
+  "get-started": "html",
+  "css": "css",
+  "javascript":"javascript",
+  "ES6": "ES6",
+  "jQuery": "jQuery",
+  "index.html":"首页1"
 }
