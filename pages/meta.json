@@ -3,5 +3,6 @@
   "html": "html",
   "css": "css入门基础",
   "javascript":"JavaScript",
+  "node":"node",
   "vue":"vue"
 }
