@@ -1,7 +1,8 @@
 export default {
   github: 'https://github.com/858399075/xingyuejs',
   docsRepositoryBase: 'https://github.com/858399075/xingyuejs/blob/master',
-  titleSuffix: ' – 星月',
+  titleSuffix: ' | 星月前端',
+  footer: <p>MIT 2021 © Nextra.</p>,
   logo: (
     <>
       <span className="mr-2 font-extrabold hidden md:inline">星月前端博客</span>
@@ -65,7 +66,9 @@ export default {
   footerText: <> 
   {new Date().getFullYear()}/
   {new Date().getMonth() + 1}/
-  {new Date().getDate()}
-  .@星月前端</>,
+  {new Date().getDate()}&nbsp;
+  {new Date().getHours()}:
+  {new Date().getMinutes()}&nbsp;
+  @星月前端</>,
   unstable_faviconGlyph: '⭐',
 }
