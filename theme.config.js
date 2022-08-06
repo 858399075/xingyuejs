@@ -2,13 +2,14 @@ export default {
   github: 'https://github.com/858399075/xingyuejs',
   docsRepositoryBase: 'https://github.com/858399075/xingyuejs/blob/master',
   titleSuffix: ' | 星月前端',
-  footer: <p>MIT 2021 © Nextra.</p>,
   logo: (
     <>
+      <div>
       <span className="mr-2 font-extrabold hidden md:inline">星月前端博客</span>
       <span className="text-gray-600 font-normal hidden md:inline">
         山顶不是终点，另一座山也不是。
       </span>
+      </div>
     </>
   ),
   head: (
@@ -62,7 +63,7 @@ export default {
   prevLinks: true,
   nextLinks: true,
   footer: true,
-  footerEditLink: '在 GitHub 上编辑此页面',
+  footerEditLink: '',
   footerText: <> 
   {new Date().getFullYear()}/
   {new Date().getMonth() + 1}/
@@ -70,5 +71,5 @@ export default {
   {new Date().getHours()}:
   {new Date().getMinutes()}&nbsp;
   @星月前端</>,
-  unstable_faviconGlyph: '⭐',
+  // unstable_faviconGlyph: '⭐',
 }
